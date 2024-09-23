@@ -1,0 +1,113 @@
+p{
+    color: #ffffff;
+}
+h2{
+    color: #ffffff;
+}
+li{
+    color: #ffffff;
+}
+h4{
+    color:#ffffff
+}
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+* {
+    margin: 0; /*altera margem */
+    Padding: 0; /*?*/
+    box-sizing:border-box; /*?*/
+}
+
+body{
+    font-family: Arial, sans-serif; /*muda fonte*/
+    line-height: 1.6;/*?*/
+    background-color: #14657e; /*Muda a cor do fundo hehehe*/
+}
+nav{
+    position: fixed; /* posição fixa*/
+    top: 0;/*espaçamento da parte de cima*/
+    width:100%;
+    background-color: #386d5b57; /*alguma cor*/
+    padding:20px 0;/*vertical e horizontal*/
+}
+nav ul{
+    list-style-type:none; /*decorativo*/
+    display: flex;/*ajuda na organização do content*/
+    justify-content: center; /*Bota os mano da nav no centro*/
+}
+nav ul li{
+    margin: 0 20px; /*separa os mano da nav*/
+}
+nav ul li a{
+    color: white; /*autoexplicativo*/
+    text-decoration: none;/*decoração/formatação de texto*/
+    font-size: 18px;/*Aumenta ou diminui tamanho da fonte*/
+    padding: 10px;
+    transition: color 0.3;/*tempo para aparecer a cor*/
+}
+nav ul li a:hover{
+    color: #03fc9c;
+}
+section:not(#home)/*Não faço nem ideia, o que isso deveria significar*/{
+    padding:100px 20px; /*Agora que eu vi o site denovo creio que isso seja o espaçamento*/
+    text-align: center;
+    display:flex;
+    justify-content: center;/*Bota as coisa no centro*/
+    align-items: center;/*Alinha as coisa no centro*/
+    height:100vh;
+}
+#home{
+   /* background-color: #ffffffdc;*/
+   background-image: url(https://wallpapers.com/images/hd/olympics-usain-bolt-vzqhhtn9t0uomn0a.jpg) ;/*Busca a img*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#ffffff;
+    height: 100vh;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+.content{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+.content img{
+    width:400px;
+    height:300px;
+    object-fit: cover;
+    margin-right:20px;
+    border-radius: 8px;
+}
+.content .text{
+    max-width: 600px;
+    text-align: left;
+}
+.content.text h2{
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #485afa
+}
+.content .text p{
+    font-size: 1.1em;
+    color: #ffffff;
+}
+
+#siat{
+    background-color: #000000;
+}
+
+#sand{
+    background-color: #000000;
+}
+
+#tundra{
+    background-color: #000000;
+}
